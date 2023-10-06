@@ -14,10 +14,8 @@ import (
 	// that registers the precompile with the subnet-evm. Importing the precompile package here
 	// will cause the precompile to be registered with the subnet-evm.
 	_ "github.com/ava-labs/precompile-evm/sha256"
-<<<<<<< HEAD
 	_ "github.com/ava-labs/precompile-evm/calculator"
-=======
->>>>>>> 77af71c (Initialize avalanche-academy-start)
+	_ "github.com/ava-labs/precompile-evm/calculatorplus"
 )
 
 const Version = "v0.1.4"
